@@ -1,0 +1,70 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	}, {
+		"path": "pages/cart/cart",
+		"style": {}
+	}, {
+		"path": "pages/news/news",
+		"style": {}
+	}, {
+		"path": "pages/member/member",
+		"style": {}
+	}, {
+		"path": "pages/goods-detail/goods-detail",
+		"style": {}
+	}, {
+		"path": "pages/goods/goods",
+		"style": {
+			"navigationBarTitleText":"商品列表",
+			"enablePullDownRefresh":true
+		}
+	}, {
+		"path": "pages/contact/contact",
+		"style": {}
+	}, {
+		"path": "pages/pics/pics",
+		"style": {}
+	}, {
+		"path": "pages/videos/videos",
+		"style": {}
+	}    ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "小城购物",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#b50e03",
+		"color": "#ccc",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			}, {
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png"
+			}
+		]
+	}
+}

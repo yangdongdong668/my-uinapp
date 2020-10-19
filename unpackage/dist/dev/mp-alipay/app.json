@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/news/news",
+    "pages/member/member",
+    "pages/goods-detail/goods-detail",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos",
+    "pages/news-detail/news-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "小城购物",
+    "titleBarColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#ccc",
+    "selectedColor": "#b50e03",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/icon/home.png",
+        "activeIcon": "static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "资讯",
+        "icon": "static/icon/news.png",
+        "activeIcon": "static/icon/news-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "name": "购物车",
+        "icon": "static/icon/cart.png",
+        "activeIcon": "static/icon/cart-active.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "name": "会员",
+        "icon": "static/icon/member.png",
+        "activeIcon": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="news"><news-item vue-id="1cd30cb6-1" list="{{newsList}}" data-event-opts="{{[['^itemClick',[['goDetail']]]]}}" onItemClick="__e" onVueInit="__l"></news-item></view>
